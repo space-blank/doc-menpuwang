@@ -1,15 +1,4 @@
 {
-  "pdf": {
-    "title": "Go语言圣经",
-    "pageNumbers": true, 
-    "fontFamily": "Arial",
-    "fontSize": 12,
-    "paperSize": "a4",
-    "margin": {
-      "right": 62,
-      "left": 62,
-      "top": 56,
-      "bottom": 56
-    }
-  }
+    "title": "我的第一本電子書",
+    "description": "用 GitBook 制作的第一本電子書！"
 }
