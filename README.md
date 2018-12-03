@@ -26,9 +26,7 @@
 
 或者将token信息包含到URL中：
 
-> http://api.mysite.com/me?token={yourtokenhere}
-
-
+> [http://api.mysite.com/me?token={yourtokenhere}](http://api.mysite.com/me?token={yourtokenhere})
 
 | key | value |
 | --- | :---: |
