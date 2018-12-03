@@ -4,7 +4,7 @@
 
 * ### **请求地址**
 
-> /{prefix}/category/index
+> /{prefix}/category/list
 
 * ### **请求方式**
 
@@ -12,9 +12,7 @@
 
 * ### **请求参数**
 
-| 请求参数 | 参数类型 | 是否必须 | 参数说明 |
-| :---: | :---: | :---: | :---: |
-| cityid | numeric | N | 城市ID，默认为1 |
+无
 
 * ### **返回示例**
 
@@ -22,57 +20,37 @@
 {
     "code": 200,
     "message": "success",
-    "data": {
-        "location": {
-            "cityid": 1,
-            "cityname": "北京"
+    "data": [
+        {
+            "catid": 246,
+            "catname": "商铺转让",
+            "icon": "http://localhost",
+            "children": [
+                {
+                    "catid": 528,
+                    "catname": "酒楼餐饮"
+                },
+                {
+                    "catid": 529,
+                    "catname": "美容美发"
+                }
+            ]
         },
-        "list": [
-            {
-                "catid": 246,
-                "catname": "商铺转让",
-                "children": [
-                    {
-                        "catid": 528,
-                        "catname": "酒楼餐饮"
-                    },
-                    {
-                        "catid": 529,
-                        "catname": "美容美发"
-                    },
-                    {
-                        "catid": 530,
-                        "catname": "百货超市"
-                    },
-                    {
-                        "catid": 531,
-                        "catname": "服饰鞋包"
-                    }
-                ]
-            },
-            {
-                "catid": 247,
-                "catname": "商铺转让",
-                "children": [
-                    {
-                        "catid": 528,
-                        "catname": "酒楼餐饮"
-                    },
-                    {
-                        "catid": 529,
-                        "catname": "美容美发"
-                    },
-                    {
-                        "catid": 530,
-                        "catname": "百货超市"
-                    },
-                    {
-                        "catid": 531,
-                        "catname": "服饰鞋包"
-                    }
-                ]
-            },
-        ]
+        {
+            "catid": 519,
+            "catname": "商铺租售",
+            "icon": "http://localhost",
+            "children": [
+                {
+                    "catid": 584,
+                    "catname": "酒楼餐饮 "
+                },
+                {
+                    "catid": 585,
+                    "catname": "美容美发"
+                }
+            ]
+        }
     }
 }
 ```

@@ -14,7 +14,7 @@
 
 | 请求参数 | 参数类型 | 是否必须 | 参数说明 |
 | :---: | :---: | :---: | :---: |
-| keyword | string | N | 关键词 |
+| nid | int | Y | 新闻ID |
 
 * ### **返回示例**
 
@@ -23,56 +23,37 @@
     "code": 200,
     "message": "success",
     "data": {
-        "location": {
-            "cityid": 1,
-            "cityname": "北京"
-        },
-        "list": [
+        "breadcrumbs": [
             {
-                "catid": 246,
-                "catname": "商铺转让",
-                "children": [
-                    {
-                        "catid": 528,
-                        "catname": "酒楼餐饮"
-                    },
-                    {
-                        "catid": 529,
-                        "catname": "美容美发"
-                    },
-                    {
-                        "catid": 530,
-                        "catname": "百货超市"
-                    },
-                    {
-                        "catid": 531,
-                        "catname": "服饰鞋包"
-                    }
-                ]
+                "catid": 0,
+                "catname": "新闻资讯"
             },
             {
-                "catid": 247,
-                "catname": "商铺转让",
-                "children": [
-                    {
-                        "catid": 528,
-                        "catname": "酒楼餐饮"
-                    },
-                    {
-                        "catid": 529,
-                        "catname": "美容美发"
-                    },
-                    {
-                        "catid": 530,
-                        "catname": "百货超市"
-                    },
-                    {
-                        "catid": 531,
-                        "catname": "服饰鞋包"
-                    }
-                ]
-            },
-        ]
+                "catid": 1,
+                "catname": "报刊专栏"
+            }
+        ],
+        "info": {
+            "id": 2181,
+            "iscommend": 0,
+            "isfocus": "",
+            "isbold": 0,
+            "isjump": 0,
+            "redirect_url": "",
+            "title": "252期",
+            "keywords": "",
+            "catid": 1,
+            "begintime": 1539674458,
+            "introduction": "",
+            "content": "<img src=\"/attachment/editor/201810/1539673364ythtu.jpg\" alt=\"\" />",
+            "author": "",
+            "source": "门铺网",
+            "hit": 70,
+            "perhit": 1,
+            "imgpath": "/attachment/editor/201810/1539673364ythtu.jpg",
+            "html_path": "",
+            "cityid": 281
+        }
     }
 }
 ```

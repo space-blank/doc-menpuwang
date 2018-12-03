@@ -22,57 +22,15 @@
 {
     "code": 200,
     "message": "success",
-    "data": {
-        "location": {
-            "cityid": 1,
-            "cityname": "北京"
+    "data": [
+        {
+            "streetid": 63,
+            "streetname": "北苑"
         },
-        "list": [
-            {
-                "catid": 246,
-                "catname": "商铺转让",
-                "children": [
-                    {
-                        "catid": 528,
-                        "catname": "酒楼餐饮"
-                    },
-                    {
-                        "catid": 529,
-                        "catname": "美容美发"
-                    },
-                    {
-                        "catid": 530,
-                        "catname": "百货超市"
-                    },
-                    {
-                        "catid": 531,
-                        "catname": "服饰鞋包"
-                    }
-                ]
-            },
-            {
-                "catid": 247,
-                "catname": "商铺转让",
-                "children": [
-                    {
-                        "catid": 528,
-                        "catname": "酒楼餐饮"
-                    },
-                    {
-                        "catid": 529,
-                        "catname": "美容美发"
-                    },
-                    {
-                        "catid": 530,
-                        "catname": "百货超市"
-                    },
-                    {
-                        "catid": 531,
-                        "catname": "服饰鞋包"
-                    }
-                ]
-            },
-        ]
+        {
+            "streetid": 64,
+            "streetname": "来广营"
+        }
     }
 }
 ```

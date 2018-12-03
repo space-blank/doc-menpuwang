@@ -23,55 +23,33 @@
     "code": 200,
     "message": "success",
     "data": {
-        "location": {
-            "cityid": 1,
-            "cityname": "北京"
+        "page": {
+            "size": 10, //每页总条数
+            "number": 1, //当前页码
+            "total-pages": 39, //总页数
+            "total-items": 384 //总条数
         },
-        "list": [
+        "page_data": [
             {
-                "catid": 246,
-                "catname": "商铺转让",
-                "children": [
-                    {
-                        "catid": 528,
-                        "catname": "酒楼餐饮"
-                    },
-                    {
-                        "catid": 529,
-                        "catname": "美容美发"
-                    },
-                    {
-                        "catid": 530,
-                        "catname": "百货超市"
-                    },
-                    {
-                        "catid": 531,
-                        "catname": "服饰鞋包"
-                    }
-                ]
+                "id": 87727,
+                "title": "YAHOO<font color=red>竞拍</font>,上珍拍网,\r收藏酒哪个好",
+                "img_path": "",
+                "content": "珍拍网www.ZhenJP.com是国内最大的日本代拍、日本代购、雅虎拍卖、YAHOO竞拍、日拍、日",
+                "userid": "金刚葫芦娃",
+                "contact_who": "珍拍网",
+                "hit": 10,
+                "begintime": "18-10-20"
             },
             {
-                "catid": 247,
-                "catname": "商铺转让",
-                "children": [
-                    {
-                        "catid": 528,
-                        "catname": "酒楼餐饮"
-                    },
-                    {
-                        "catid": 529,
-                        "catname": "美容美发"
-                    },
-                    {
-                        "catid": 530,
-                        "catname": "百货超市"
-                    },
-                    {
-                        "catid": 531,
-                        "catname": "服饰鞋包"
-                    }
-                ]
-            },
+                "id": 87726,
+                "title": "YAHOO<font color=red>竞拍</font>行业最低汇率,\r哈雷摩托车经销商",
+                "img_path": "",
+                "content": "珍拍网www.ZhenJP.com是国内最大的日本代拍、日本代购、雅虎拍卖、YAHOO竞拍、日拍、日",
+                "userid": "金刚葫芦娃",
+                "contact_who": "珍拍网",
+                "hit": 0,
+                "begintime": "18-10-20"
+            }
         ]
     }
 }
