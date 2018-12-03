@@ -32,10 +32,5 @@ URL地址变量{prefix}： /api/v1
 
 > [http://api.mysite.com/me?token={yourtokenhere}](http://api.mysite.com/me?token={yourtokenhere})
 
-| key | value |
-| --- | :---: |
-| lng | 经度 |
-| lat | 纬度 |
-
 
 
