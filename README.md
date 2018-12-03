@@ -6,7 +6,7 @@
 
 > 线上部署地址：[http://api.menpuwang.com](http://api.menpuwang.com)
 
-url地址前缀{prefix}： /api/v1
+URL地址前缀{prefix}： /api/v1
 
 ## 2. 服务端下发数据全局格式
 
