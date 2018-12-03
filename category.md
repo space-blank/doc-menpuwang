@@ -4,7 +4,7 @@
 
 * ### **请求地址**
 
-> {prefix}/category/index
+> /{prefix}/category/index
 
 * ### **请求方式**
 
