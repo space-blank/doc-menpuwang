@@ -1,10 +1,10 @@
-## 输入关键词搜索
+## 用户我的发布
 
-输入关键词搜索
+我的发布信息
 
 * ### **请求地址**
 
-> /{prefix}/information/list
+> /{prefix}/member/publish
 
 * ### **请求方式**
 
@@ -14,8 +14,7 @@
 
 | 请求参数 | 参数类型 | 是否必须 | 参数说明 |
 | :---: | :---: | :---: | :---: |
-| keyword | string | N | 关键词 |
-| tel | string | N | 手机号码 |
+| uid | string | Y | 用户ID |
 | page | int | N | 当前页码 |
 | pageSize | int | N | 每页条数 |
 
